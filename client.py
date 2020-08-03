@@ -109,8 +109,6 @@ def main():
             # update score
             result = game.get_winner()
             
-            print(game.wins)
-
             if result == player_id:
                 show_label(screen, (WIDTH*0.5, HEIGHT*0.6), 50, GREEN, 'You Won...')
                 if player_id == 0:
